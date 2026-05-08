@@ -341,3 +341,9 @@ Correctness of the parallel unsteady solvers is checked by:
 | T values = `-nan`, solver diverges (MPI) | `omega > 1` with multiple ranks | Use `omega=1.0` for MPI (`./main_mpi <lc> 1.0`) |
 | `bc` not found | Missing utility | `sudo apt install bc` |
 | Scaling script fails to compile | Libraries before source in linker flags | Use the manual compilation commands in Section 7 |
+
+---
+
+## 13. Contributions
+
+This project was jointly done and submitted by Aadityanshu Abhinav and Anuj Sreenivasan, senior undergraduate students in the Dept. of Mechanical Engineering at IIT Madras.
